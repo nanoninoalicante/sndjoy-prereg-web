@@ -1,6 +1,6 @@
 <script setup>
 import { reactive, ref, watch, onMounted } from "vue";
-import FloatingChooseYourHandle from "~/components/FloatingChooseYourHandle";
+import FloatingPreRegister from "~/components/FloatingPreRegister";
 import PrimarySection from "~/components/PrimarySection";
 import PageSection from "~/components/PageSection";
 import PrimaryPageHolder from "~/components/PrimaryPageHolder";
@@ -22,10 +22,10 @@ watch(route, () => {
 <template>
     <PrimaryPageHolder id="primaryPageHolder">
         <FloatingPrimaryLogoHolder></FloatingPrimaryLogoHolder>
-        <FloatingChooseYourHandle
+        <FloatingPreRegister
             v-if="showFloatingForm"
             class="fixed md:hidden"
-        ></FloatingChooseYourHandle>
+        ></FloatingPreRegister>
 
         <PageSection
             class="flex md:fixed md:right-0 md:top-0 lg:px-20 justify-center items-center"
