@@ -4,16 +4,14 @@ const mobileImages = [
     "mobile/2.jpg",
     "mobile/3.jpg",
     "mobile/4.jpg",
-    "mobile/5.jpg",
-    "mobile/6.jpg"
+    "mobile/5.jpg"
 ];
 const images = [
     "desktop/1.jpg",
     "desktop/2.jpg",
     "desktop/3.jpg",
     "desktop/4.jpg",
-    "desktop/5.jpg",
-    "desktop/6.jpg"
+    "desktop/5.jpg"
 ];
 const walkthroughScreens = [
     {
@@ -45,12 +43,6 @@ const walkthroughScreens = [
         imagePosition: "object-right",
         image: images[4],
         mobileImage: mobileImages[4]
-    },
-    {
-        text: "Coming very soon, limited access",
-        imagePosition: "object-right",
-        image: images[5],
-        mobileImage: mobileImages[5]
     }
 ];
 

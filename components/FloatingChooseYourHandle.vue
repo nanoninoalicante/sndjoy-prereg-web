@@ -9,7 +9,7 @@
             >
                 <div class="relative w-full">
                     <input
-                        class="w-full shadow-xl rounded-2xl border-4 border-teal-500 py-5 px-12 text-xl focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-opacity-50"
+                        class="w-full shadow-xl rounded-2xl border-4 border-primary-500 py-5 px-12 text-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50"
                         :class="{
                             'border-warning-500 focus:ring-warning-500':
                                 formIsInvalid,
@@ -32,7 +32,7 @@
                     ></CircleLoader>
                     <CheckCircleIcon
                         v-if="!formIsInvalid && v$.newHandles.$dirty"
-                        class="pointer-events-none absolute right-0 top-1/2 -mt-4 mr-5 h-8 w-8 text-teal-800"
+                        class="pointer-events-none absolute right-0 top-1/2 -mt-4 mr-5 h-8 w-8 text-primary-600"
                     ></CheckCircleIcon>
                     <ExclamationCircleIcon
                         v-if="v$.newHandles.$invalid"
