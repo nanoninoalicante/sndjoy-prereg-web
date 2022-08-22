@@ -24,8 +24,8 @@ module.exports = {
             teal: colors.teal,
             twitter: "#1DA1F2",
             primary: {
-                500: "#109C90",
-                700: "#1F6962",
+                500: "#e87c5f",
+                700: "#934f3c",
             },
             warning: {
                 200: "#FFAE71",
