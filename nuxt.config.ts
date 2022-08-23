@@ -3,8 +3,8 @@ import { resolve } from "path";
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-    ssr: true,
-    modules: ["@nuxtjs/tailwindcss", "@vueuse/nuxt", "@nuxtjs/algolia"],
+    ssr: false,
+    modules: ["@nuxtjs/tailwindcss", "@vueuse/nuxt"],
     runtimeConfig: {
         public: {
             primaryApiBaseUrl: process.env.PRIMARY_API_BASE_URL || "",
@@ -29,11 +29,4 @@ export default defineNuxtConfig({
     css: [
         'maz-ui/css/main.css'
     ],
-    algolia: {
-        instantSearch: true,
-        lite: true,
-        applicationId: process.env.ALGOLIA_APP_ID || "PKOSWN2NGY",
-        apiKey:
-            process.env.ALGOLIA_API_KEY || "d435a1aad098fb58850e965e0719c787",
-    },
 });
