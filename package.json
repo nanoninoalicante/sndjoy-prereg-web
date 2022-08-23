@@ -27,6 +27,8 @@
     "@vueuse/nuxt": "^9.1.0",
     "axios": "^0.27.2",
     "hls.js": "^1.1.5",
+    "libphonenumber-js": "^1.10.13",
+    "maz-ui": "^3.0.2",
     "ohmyfetch": "^0.4.18",
     "pinia": "^2.0.14",
     "rellax": "^1.12.1",

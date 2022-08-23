@@ -24,8 +24,11 @@ export default defineNuxtConfig({
     },
     buildModules: ["@pinia/nuxt"],
     build: {
-        transpile: ["@heroicons/vue"],
+        transpile: ["@heroicons/vue", "maz-ui"],
     },
+    css: [
+        'maz-ui/css/main.css'
+    ],
     algolia: {
         instantSearch: true,
         lite: true,

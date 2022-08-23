@@ -6,6 +6,8 @@ STATE
  */
 const preregData: any = useStorage("prereg", {
     emailAddress: "",
+    phone: "",
+    countryCallingCode: "",
     newHandles: "",
     termsAccepted: false,
 });
@@ -20,6 +22,8 @@ const setModal = (val) => (modal.value = val);
 const resetForm = async () => {
     preregData.value.newHandles = "";
     preregData.value.emailAddress = "";
+    preregData.value.phone = "";
+    preregData.value.countryCallingCode = "";
     preregData.value.termsAccepted = false;
     window.location.reload();
 };
