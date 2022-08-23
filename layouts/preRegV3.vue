@@ -2,7 +2,6 @@
 import Modal from "~/components/Modal";
 import Cookies from "~/components/Cookies.vue";
 import Alerts from "~/components/Alerts.vue";
-import AudioPlayerHolder from "~/components/Player/AudioPlayerHolder";
 import FullPageLoading from "~/components/FullPageLoading";
 import ArrowDownIconV2 from "~/components/icons/ArrowDownIconV2";
 import PrimaryPreRegLayout from "~/components/PrimaryPreRegLayout";
@@ -44,8 +43,6 @@ watch(offline, (newVal) => {
         <FullPageLoading></FullPageLoading>
         <Modal></Modal>
         <PrimaryPreRegLayout><slot /></PrimaryPreRegLayout>
-
-        <AudioPlayerHolder></AudioPlayerHolder>
         <!-- <PrimaryFooter /> -->
         <Alerts></Alerts>
         <Cookies></Cookies>

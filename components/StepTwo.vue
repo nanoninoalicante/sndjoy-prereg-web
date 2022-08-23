@@ -4,13 +4,12 @@
             <p
                 class="text-left text-2xl font-medium tracking-tighter text-gray-700 mb-4"
             >
-                That's a great handle!
+                Almost there
             </p>
             <p
                 class="text-left text-xl font-medium tracking-tighter text-gray-700"
             >
-                We just need your email to secure that handle before someone
-                else gets it
+                We just need to verify your phone number
             </p>
         </div>
         <div class="flex flex-col items-center space-y-2">
